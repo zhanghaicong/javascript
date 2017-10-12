@@ -28,16 +28,16 @@ function sortBy(filed, rev, primer) {
     }  
 }  
 
-//字符串编码（可自行添加你想要编码的字符）
-function htmlEncodeByRegExp(str) {  
-    var s = "";  
-    if (!str || str.length == 0)  
-        return "";  
-    s = str.replace(/&/g, "&");  
-    s = s.replace(/</g, "<");  
-    s = s.replace(/>/g, ">");  
-    s = s.replace(/ /g, " ");  
-    s = s.replace(/\'/g, "'");  
-    s = s.replace(/\"/g, """);  
-    return s;  
-}  
+//字符串编码
+function htmlEncodeByRegExp(str) {
+	var s = "";
+	if (!str || str.length == 0)
+		return "";
+	s = str.replace(/&/g, "&amp;");
+	s = s.replace(/</g, "&lt;");
+	s = s.replace(/>/g, "&gt;");
+	s = s.replace(/ /g, "&nbsp;");
+	s = s.replace(/\'/g, "&#39;");
+	s = s.replace(/\"/g, "&quot;");
+	return s;
+}
