@@ -1,4 +1,2 @@
 # javascript
-javascript常用函数
-javascript细节点
-javascript资料
+javascript常用函数，细节点，资料
