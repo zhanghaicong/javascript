@@ -1,3 +1,0 @@
-IE11不兼容yyyy-MM-dd HH:mm:ss格式的时间（转换为yyyy/MM/dd HH:mm:ss） 
-IE8不兼容原生trim()（使用$.trim()）
-IE兼容event.srcElement，火狐兼容event.target，var obj = event.srcElement ? event.srcElement : event.target; 
