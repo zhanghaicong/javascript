@@ -17,12 +17,3 @@
 <br/>
 [SVG图标素材下载](http://www.iconsvg.com/)<br/>
 [15个关于Chrome的开发必备小技巧](http://www.cnblogs.com/giggle/p/5966991.html)<br/>
-
-浏览器兼容性
-=
-* E11不兼容yyyy-MM-dd HH:mm:ss格式的时间（转换为yyyy/MM/dd HH:mm:ss）<br/>
-* IE8不兼容原生trim()（使用$.trim()）<br/>
-* IE兼容event.srcElement，火狐兼容event.target
-```javascript
-var obj = event.srcElement ? event.srcElement : event.target; 
-```
