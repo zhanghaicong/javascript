@@ -4,6 +4,7 @@
 * [30分钟掌握ES6/ES2015核心内容](http://www.jianshu.com/p/ebfeb687eb70)
 ### Javascript
 * [学习Javascript闭包](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
+* [闭包小例子](https://zhuanlan.zhihu.com/p/25407758)
 * [JavaScript 验证 API](http://www.runoob.com/js/js-validation-api.html)
 ### other
 * [15个关于Chrome的开发必备小技巧](http://www.cnblogs.com/giggle/p/5966991.html)
